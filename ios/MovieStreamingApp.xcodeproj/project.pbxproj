@@ -223,7 +223,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				266C8F072DEA0C5D1F08822B /* [CP] Embed Pods Frameworks */,
 				A310F233927C02534955DA1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -246,7 +245,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				3619B4DC33B22DF0A54B7086 /* [CP] Embed Pods Frameworks */,
 				5B9F28D101329D32560DB681 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -345,40 +343,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
-		};
-		266C8F072DEA0C5D1F08822B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp-MovieStreamingAppTests/Pods-MovieStreamingApp-MovieStreamingAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3619B4DC33B22DF0A54B7086 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieStreamingApp/Pods-MovieStreamingApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		5B9F28D101329D32560DB681 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

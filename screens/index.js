@@ -1,7 +1,4 @@
-import Home from "./Home"
-import MovieDetail from "./MovieDetail"
+import Home from './Home';
+import MovieDetail from './MovieDetail';
 
-export {
-    Home,
-    MovieDetail
-};
+export { Home, MovieDetail };
